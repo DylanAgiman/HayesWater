@@ -1,3 +1,5 @@
+# Dylan Agiman water code for Hayes research group
+
 import urllib.request
 import math
 
@@ -8,9 +10,9 @@ file = urllib.request.urlopen(link).read().decode("utf-8")
 lines = file.split("\r\n")[:-1]
 
 
-#for debugging purposes to check the contents of the csv
-#print("\n\nprinting lines after splitting\n")
-#for i, line in enumerate(lines):
+# for debugging purposes to check the contents of the csv
+# print("\n\nprinting lines after splitting\n")
+# for i, line in enumerate(lines):
 #    print(i, ": ",line)
 
 # tbd: manage the formatting of the output and calculate the cosine
